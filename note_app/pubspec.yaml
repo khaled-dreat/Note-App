@@ -1,0 +1,50 @@
+name: note_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+# icon
+  cupertino_icons: ^1.0.2
+# Easy Localization
+  easy_localization: ^3.0.1
+# Flutter Svg
+  flutter_svg: ^1.1.6
+# Google Fonta
+  google_fonts: ^3.0.1
+  # Screenutil
+  flutter_screenutil: ^5.6.0
+ # Awesome Dialog
+  awesome_dialog: ^3.0.2
+ # Provider
+  provider: ^6.0.5
+  # Shared Preferences
+  shared_preferences: ^2.0.16
+  # tost
+  fluttertoast: ^8.1.2
+  # Web View
+  webview_flutter: ^4.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+   - assets/gif/
+   - assets/images/
+   - assets/lang/
+   - assets/icons/
